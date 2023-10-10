@@ -1,0 +1,21 @@
+.home-page{
+    width: 100%;
+    height:100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("https://plus.unsplash.com/premium_photo-1683309565422-77818a287060?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8cG9ydGZvbGlvJTIwYmFja2dyb3VuZHxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80");
+
+}
+.home-page-content{
+ padding-top:  30px;
+}
+.content-1{
+    padding-top:80px;
+}
+
+.content-2 p{
+  width: 410px;
+  height: 500px;
+  text-align: justify;
+}
+

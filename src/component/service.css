@@ -1,0 +1,28 @@
+.service-h1{
+    color: black;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.service-wrap{
+    background: linear-gradient(to top   , #353333, #232020);
+
+}
+.card-p{
+  text-align: justify;  
+ 
+}
+/* styles.css */
+.card {
+  
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 20 55 100px rgba(0, 0, 0, 0.2);
+    transition: transform 0.6s ease-in-out, border 0.6s ease-in-out;
+  }
+  
+  .card:hover {
+    border: 2px solid; /* Gradient border on hover */
+    transform: scale(1.1); /* Apply an animation on hover */
+
+  }
+
+  

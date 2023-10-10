@@ -1,0 +1,8 @@
+.list:hover{
+    opacity: 0.1;
+  transition: opacity 0.8s ease;
+
+}
+.bran-name{
+  text-shadow: 2px 6px 15px white;
+}

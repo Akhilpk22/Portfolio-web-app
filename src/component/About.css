@@ -1,0 +1,66 @@
+.about-page{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    width: 100%;
+    background: linear-gradient(to bottom  , #736c6c, #232020);
+   
+   
+}
+/* styles.css */
+.content-container {
+ 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    
+  }
+  .left-side-h1{
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }
+  .left-side-p{
+    font-size: 20px;
+    text-align: justify;
+    
+  }
+  
+  .left-div {
+    flex: 1;
+    padding-top: 90px;
+    
+    /* Add styling for the left div */
+  }
+  
+  .right-div {
+    flex: 1;
+   
+    /* Add styling for the right div */
+  }
+  
+  /* Media query for responsiveness */
+  @media (max-width: 798px) {
+    .content-container {
+      flex-direction: column;
+    }
+  
+    .left-div,
+    .right-div {
+      flex: none; /* Disable flex for smaller screens */
+      width: 100%; /* Make divs take up the full width */
+      height: auto;
+    }
+    .right-img{
+        width: 400px;
+        height: 300px;
+    }
+  }
+  .right-img:hover{
+    transform: scale(1); /* Zoom in on hover */
+    
+
+  }
+  
+  
+
